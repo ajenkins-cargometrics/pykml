@@ -7,7 +7,7 @@ except ImportError:
 version = '0.1.1'
 
 setup(
-    name='pykml',
+    name='pykml3',
     version=version,
     packages=['pykml',],
     package_dir={'': 'src'},
@@ -56,6 +56,9 @@ provides Pythonic access to XML documents.
    :alt: pyKML logo
 
 See the Package Documentation for information on installation and usage.
+
+This version of the package is a fork of pykml ported to python3.  The fork is hosted at
+https://github.com/ajenkins-cargometrics/pykml
 """,
     entry_points = {
         'console_scripts': [

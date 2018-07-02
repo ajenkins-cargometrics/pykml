@@ -52,8 +52,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'pyKML'
-copyright = u'2011, Tyler Erickson'
+project = 'pyKML'
+copyright = '2011, Tyler Erickson'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -190,8 +190,8 @@ htmlhelp_basename = 'pyKMLdoc'
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'pyKML.tex', u'pyKML Documentation',
-   u'Tyler Erickson', 'manual'),
+  ('index', 'pyKML.tex', 'pyKML Documentation',
+   'Tyler Erickson', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -223,6 +223,6 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'pykml', u'pyKML Documentation',
-     [u'Tyler Erickson'], 1)
+    ('index', 'pykml', 'pyKML Documentation',
+     ['Tyler Erickson'], 1)
 ]
